@@ -321,6 +321,36 @@ table.master {
   border-color: #335599;
 }
 
+/* ---- project videos ---- */
+.proj-video-row td {
+  padding: 0 4px 10px 4px;
+}
+.proj-video {
+  display: block;
+  max-width: 560px;
+  width: 100%;
+  border: 2px solid;
+  border-color: #4A4D5E #000000 #000000 #4A4D5E;
+}
+.proj-yt-link {
+  display: inline-block;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: #000000;
+  background: #FFCC00;
+  border: 2px solid;
+  border-color: #FFFF66 #666600 #666600 #FFFF66;
+  padding: 6px 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.proj-yt-link:hover {
+  background: #FF66CC;
+  border-color: #FF99DD #662244 #662244 #FF99DD;
+}
+
 /* ---- action buttons ---- */
 .btn-row td {
   padding: 8px 4px;
