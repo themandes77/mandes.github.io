@@ -327,7 +327,7 @@ table.master {
 }
 .proj-video {
   display: block;
-  max-width: 420px;
+  max-width: 320px;
   width: 100%;
   border: 2px solid;
   border-color: #4A4D5E #000000 #000000 #4A4D5E;
