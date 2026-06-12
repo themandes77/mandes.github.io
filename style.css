@@ -6,7 +6,7 @@ body {
   background: #0B0C10;
   color: #CCCCCC;
   font-family: Verdana, Arial, Helvetica, sans-serif;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 table {
@@ -19,6 +19,28 @@ a {
 }
 a:hover {
   color: #FFCC00;
+}
+
+/* ---- language selector ---- */
+.lang-selector {
+  position: fixed;
+  top: 8px;
+  right: 8px;
+  z-index: 100;
+}
+.lang-selector select {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  background: #10121A;
+  color: #88AAFF;
+  border: 2px solid;
+  border-color: #3A3D5E #000000 #000000 #3A3D5E;
+  padding: 4px 6px;
+  cursor: pointer;
+  outline: none;
+}
+.lang-selector select:hover {
+  color: #00FFFF;
 }
 
 /* ---- master wrapper ---- */
@@ -63,19 +85,19 @@ table.master {
 }
 .banner-name {
   color: #00FFFF;
-  font-size: 28px;
+  font-size: 30px;
   font-weight: bold;
   letter-spacing: 3px;
 }
 .banner-tagline {
   color: #FF66CC;
-  font-size: 13px;
+  font-size: 15px;
   letter-spacing: 4px;
   font-weight: bold;
 }
 .banner-deco {
   color: #FFCC00;
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 2px;
 }
 
@@ -83,7 +105,7 @@ table.master {
 .under-const {
   display: inline-block;
   font-family: Verdana, Arial, sans-serif;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: bold;
   padding: 3px 8px;
   color: #000000;
@@ -101,7 +123,7 @@ table.master {
 .section-hdr {
   background: #10121A;
   color: #FF66CC;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: bold;
   padding: 4px 8px;
   border: 2px solid;
@@ -122,13 +144,13 @@ table.master {
 }
 .greeting-label {
   color: #FF66CC;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: bold;
   text-transform: uppercase;
 }
 .greeting-status {
   color: #00FFFF;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: bold;
 }
 .greeting-status em {
@@ -148,7 +170,7 @@ table.master {
 /* ---- progress bars (fake, table-based) ---- */
 .prog-row td {
   padding: 3px 4px;
-  font-size: 11px;
+  font-size: 13px;
 }
 .prog-label {
   color: #BBCCDD;
@@ -168,7 +190,7 @@ table.master {
   background: #00FFFF;
   border: 1px solid #66FFFF;
   line-height: 12px;
-  font-size: 8px;
+  font-size: 10px;
   color: #000000;
   font-weight: bold;
   text-align: right;
@@ -177,19 +199,19 @@ table.master {
 }
 .prog-pct {
   color: #00FFAA;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: bold;
 }
 
 /* ---- task list ---- */
 .task-row td {
   padding: 3px 4px;
-  font-size: 11px;
+  font-size: 13px;
   border-bottom: 1px solid #1A1D2E;
 }
 .task-check {
   color: #00FFAA;
-  font-size: 13px;
+  font-size: 15px;
 }
 .task-check.done {
   color: #00FFAA;
@@ -206,7 +228,7 @@ table.master {
 }
 .task-tag {
   display: inline-block;
-  font-size: 9px;
+  font-size: 11px;
   font-weight: bold;
   padding: 1px 5px;
   color: #000000;
@@ -225,7 +247,7 @@ table.master {
 
 /* ---- manifesto ---- */
 .manifesto-text {
-  font-size: 14px;
+  font-size: 16px;
   color: #BBCCDD;
   line-height: 175%;
 }
@@ -242,7 +264,7 @@ table.master {
 }
 .manifesto-sign {
   color: #FFCC00;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
   text-align: right;
 }
@@ -267,21 +289,21 @@ table.master {
   color: #FF66CC;
 }
 .proj-icon {
-  font-size: 16px;
+  font-size: 18px;
   color: #FFCC00;
 }
 .proj-title {
   color: #00FFFF;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
 }
 .proj-desc {
   color: #8899AA;
-  font-size: 10px;
+  font-size: 12px;
 }
 .proj-status {
   display: inline-block;
-  font-size: 9px;
+  font-size: 11px;
   font-weight: bold;
   padding: 1px 5px;
   background: #1A3A1A;
@@ -307,7 +329,7 @@ table.master {
 .action-btn {
   display: inline-block;
   font-family: Verdana, Arial, sans-serif;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: bold;
   text-transform: uppercase;
   padding: 4px 12px;
@@ -323,7 +345,7 @@ table.master {
   border-color: #FFFF66 #666600 #666600 #FFFF66;
 }
 .action-btn .small {
-  font-size: 8px;
+  font-size: 10px;
   color: #006666;
 }
 .action-btn:hover .small {
@@ -337,7 +359,7 @@ table.master {
   border: 2px solid;
   border-color: #000000 #4A4D5E #4A4D5E #000000;
   font-family: "Courier New", monospace;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
   color: #00FFAA;
   padding: 2px 6px;
@@ -350,7 +372,7 @@ table.master {
   padding: 8px 10px;
   border: 2px solid;
   border-color: #3A3D5E #000000 #000000 #3A3D5E;
-  font-size: 10px;
+  font-size: 12px;
   color: #556677;
   text-align: center;
 }
